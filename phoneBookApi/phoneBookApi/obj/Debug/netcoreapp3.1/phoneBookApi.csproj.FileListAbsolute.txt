@@ -178,6 +178,7 @@ C:\Users\germa\Desktop\Nueva carpeta (2)\phone_book\phoneBookApi\phoneBookApi\ob
 C:\Users\germa\Desktop\Nueva carpeta (2)\phone_book\phoneBookApi\phoneBookApi\obj\Debug\netcoreapp3.1\phoneBookApi.dll
 C:\Users\germa\Desktop\Nueva carpeta (2)\phone_book\phoneBookApi\phoneBookApi\obj\Debug\netcoreapp3.1\phoneBookApi.pdb
 C:\Users\germa\Desktop\Nueva carpeta (2)\phone_book\phoneBookApi\phoneBookApi\obj\Debug\netcoreapp3.1\phoneBookApi.genruntimeconfig.cache
+<<<<<<< HEAD
 F:\phoneBookApi\phoneBookApi\obj\Debug\netcoreapp3.1\phoneBookApi.dll
 F:\phoneBookApi\phoneBookApi\obj\Debug\netcoreapp3.1\phoneBookApi.pdb
 F:\phoneBookApi\phoneBookApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
@@ -236,3 +237,5 @@ F:\phoneBookApi\phoneBookApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp
 F:\phoneBookApi\phoneBookApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 F:\phoneBookApi\phoneBookApi\obj\Debug\netcoreapp3.1\phoneBookApi.MvcApplicationPartsAssemblyInfo.cache
 F:\phoneBookApi\phoneBookApi\obj\Debug\netcoreapp3.1\phoneBookApi.csproj.CopyComplete
+=======
+>>>>>>> 52a796c8fc4f7e36286edf364e3b69b9a481b6f3

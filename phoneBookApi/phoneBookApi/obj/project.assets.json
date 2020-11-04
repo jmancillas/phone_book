@@ -5722,25 +5722,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\germa\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "F:\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
       "projectName": "phoneBookApi",
       "projectPath": "F:\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
       "outputPath": "F:\\phoneBookApi\\phoneBookApi\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta (2)\\phone_book\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
+      "projectName": "phoneBookApi",
+      "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta (2)\\phone_book\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
+      "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta (2)\\phone_book\\phoneBookApi\\phoneBookApi\\obj\\",
+>>>>>>> 52a796c8fc4f7e36286edf364e3b69b9a481b6f3
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -5802,7 +5808,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
