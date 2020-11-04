@@ -32,11 +32,7 @@ namespace phoneBookApi
             });
 
             services.AddDbContext<ApplicationDbContext>(option => 
-            option.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString"),
-            sqlServerOptionsAction: sqlOptions =>
-            {
-                sqlOptions.EnableRetryOnFailure();
-            }));
+            option.UseSqlServer(Configuration.GetConnectionString("DefaultConnectionString")));
             services.AddControllers();
         }
 
