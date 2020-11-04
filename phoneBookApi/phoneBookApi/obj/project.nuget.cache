@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WgyCNX+IbGsnnDxHEG9WFQPVFBpECUUA60WsgysZGAyt4opi0T8PiAOpZ9kJrpf4vouZcoTxh85FbHziA4ki3g==",
+  "dgSpecHash": "yeK4amEMs/jVRc6uUAD+ihekHUIy3uVOQUvbbzCknkmrpKcH9bZ8cqalKlSEyMCPeT6mHrWirku3Rhdbc6X1IQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\germa\\Desktop\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
+  "projectFilePath": "C:\\Users\\germa\\Desktop\\Nueva carpeta (2)\\phone_book\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\germa\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

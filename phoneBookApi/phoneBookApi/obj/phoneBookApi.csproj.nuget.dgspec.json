@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj": {}
+    "F:\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj": {
+    "F:\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
+        "projectUniqueName": "F:\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
         "projectName": "phoneBookApi",
-        "projectPath": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
+        "projectPath": "F:\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\obj\\",
+        "outputPath": "F:\\phoneBookApi\\phoneBookApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -44,6 +44,10 @@
         "netcoreapp3.1": {
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
               "target": "Package",
               "version": "[3.1.9, )"
             },
