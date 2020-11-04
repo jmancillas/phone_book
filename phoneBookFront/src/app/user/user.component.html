@@ -1,0 +1,54 @@
+<mat-card class="example-card">
+  <br>
+  <div class="example-form">
+    <mat-card-title class="text-left fz-26">AGENDA TELEFONICA.</mat-card-title>
+    <mat-divider></mat-divider>
+    <br><br><br><br><br>
+    <form (keydown.enter)="$event.preventDefault()" name="adminInfoForm" id="adminInfoForm" >
+      <div class="row">
+        <button mat-stroked-button color="primary" class="button" (click)="createuser()" >+ NUEVO</button><br>
+      </div>
+    </form>
+  </div>
+  <br>
+  <div class="example-form mat-elevation-z8">
+    <mat-table  [dataSource]="dataSource">
+        <ng-container matColumnDef="Nombre">
+          <mat-header-cell *matHeaderCellDef> Nombre </mat-header-cell>
+          <mat-cell *matCellDef="let element" data-label="Nombre"> {{element.name}} {{element.firstName}} {{element.lastName}} </mat-cell>
+        </ng-container>      
+          
+        <ng-container matColumnDef="Telefono">
+          <mat-header-cell *matHeaderCellDef> Telefono </mat-header-cell>
+          <mat-cell *matCellDef="let element" data-label="Telefono"> {{element.phone}} </mat-cell>
+        </ng-container>
+        
+        <ng-container matColumnDef="Correo">
+          <mat-header-cell *matHeaderCellDef> Correo </mat-header-cell>
+          <mat-cell *matCellDef="let element" data-label="Correo"> {{element.email}} </mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="Contacto">
+          <mat-header-cell *matHeaderCellDef> Dirección </mat-header-cell>
+          <mat-cell *matCellDef="let element" data-label="Contacto"> {{element.address}}</mat-cell>
+        </ng-container>
+
+        <ng-container matColumnDef="Acciones">
+          <mat-header-cell *matHeaderCellDef> Acciones </mat-header-cell>
+          <mat-cell *matCellDef="let element" data-label="Acciones">
+              <button mat-icon-button color="basic" aria-label="Editar" (click)="edituser(element)"  matTooltip="Editar"  matTooltipPosition="right" style="margin-right: 1rem;">EDITAR</button><br>
+              <button mat-icon-button color="accent" aria-label="Borrar" matTooltip="Borrar" (click)="deleteUser(element)"  matTooltipPosition="right">BORRAR</button>                  
+          </mat-cell>
+        </ng-container>
+
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;">
+        </mat-row>
+    </mat-table> 
+    <br>
+    <div *ngIf="length == 0" class="text-center">
+      <label>No hay registros</label>
+    </div>
+    <br>
+  </div>    
+</mat-card>

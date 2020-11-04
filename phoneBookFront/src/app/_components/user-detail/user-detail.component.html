@@ -1,0 +1,49 @@
+<mat-card-title class="card-title fz-20">{{data.operacion}} USUARIO</mat-card-title>
+<mat-divider></mat-divider>
+<br><br><br>
+<form name="UserForm" id="UserForm" [formGroup]="UserForm" autocomplete="off">
+
+    <mat-form-field class="input-full-width xs-width" appearance="outline">
+        <mat-label>name</mat-label>
+        <input matInput type="text" id="name" name="name" formControlName="name" [(ngModel)]='data.name' required>
+    </mat-form-field>
+
+    <mat-form-field class="input-full-width xs-width" appearance="outline">
+        <mat-label>Apellido paterno</mat-label>
+        <input matInput type="text" id="firstname" name="firstname" formControlName="firstname"[(ngModel)]='data.firstname' required>
+    </mat-form-field>
+
+    <mat-form-field class="input-full-width xs-width" appearance="outline">
+        <mat-label>Apellido materno</mat-label>
+        <input matInput type="text" id="lastname" name="lastname" formControlName="lastname"[(ngModel)]='data.lastname'>
+    </mat-form-field>
+
+    <mat-form-field class="input-full-width xs-width" appearance="outline">
+        <mat-label>Telefono</mat-label>
+        <input matInput type="text" maxlength="8" id="lastname" name="phone" formControlName="phone"[(ngModel)]='data.phone' required>
+    </mat-form-field>
+
+    <mat-form-field class="input-full-width xs-width" appearance="outline">
+        <mat-label>Correo electrónico</mat-label>
+        <input matInput placeholder="correo@example.com" formControlName="email" id="email" name="email"[(ngModel)]='data.email' autocomplete="off" required  >
+        <mat-error *ngIf="UserForm.controls.email.invalid">El correo electrónico no tiene un formato correcto.</mat-error>            
+    </mat-form-field>
+
+    <mat-form-field class="input-full-width xs-width" appearance="outline">
+        <mat-label>Dirección</mat-label>
+        <input matInput type="text" id="address"  name="address" formControlName="address"[(ngModel)]='data.address' required>
+    </mat-form-field>
+
+    <div class="loading-screen-icon"  *ngIf="esperando">
+        <mat-spinner></mat-spinner>
+    </div>
+
+    <div class="modal-form margin-div">
+        <button mat-raised-button color="warn" class="buttonSecondary" (click)="cancel()" >Cancelar</button>
+        <button mat-raised-button color="primary" class="button" (click)="save()" >Guardar</button>
+    </div>
+    <div *ngIf="successFalse">
+        <br>
+        <mat-card class='card-danger'>Error</mat-card>
+    </div>
+</form>

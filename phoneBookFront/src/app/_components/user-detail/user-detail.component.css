@@ -1,0 +1,29 @@
+.buttonSecondary{
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    background: var(--unnamed-color-2b3052) 0% 0% no-repeat padding-box;
+    background: #e76649 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.button{
+    width: 250px;
+    height: 50px;
+    margin: 5px;
+    background: var(--unnamed-color-2b3052) 0% 0% no-repeat padding-box;
+    background: #603bbc 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.input-full-width{
+    width: 100%;
+}
+.modal-form{
+    width: 60%;
+    margin: auto;
+}
+.loading-screen-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,12 @@
+.example-card{
+  width: 70%;
+  margin: auto;
+}
+.text-center{
+  text-align: center;
+}
+.button{
+  width: 250px;
+  height: 50px;
+  margin: 5px;
+}
