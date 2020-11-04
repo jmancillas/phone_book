@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj": {}
+    "C:\\Users\\germa\\Desktop\\Nueva carpeta (2)\\phone_book\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj": {
+    "C:\\Users\\germa\\Desktop\\Nueva carpeta (2)\\phone_book\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
+        "projectUniqueName": "C:\\Users\\germa\\Desktop\\Nueva carpeta (2)\\phone_book\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
         "projectName": "phoneBookApi",
-        "projectPath": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USUARIO\\Desktop\\Nueva carpeta (2)\\PhoneBook2\\phoneBookApi\\phoneBookApi\\obj\\",
+        "projectPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta (2)\\phone_book\\phoneBookApi\\phoneBookApi\\phoneBookApi.csproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\germa\\Desktop\\Nueva carpeta (2)\\phone_book\\phoneBookApi\\phoneBookApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -76,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
